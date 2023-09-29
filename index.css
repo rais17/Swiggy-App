@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.restaurant-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px 40px;
+    border: 1px solid red;
+    margin: 5px 10px;
+}
+
+.restrau-image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.restrau_image {
+    width: 70%;
+    object-fit: cover;
+}
+
+.rating-cost-container {
+    display: flex;
+    justify-content: space-between;
+}
