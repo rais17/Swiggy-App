@@ -6,7 +6,7 @@ const SearchRestaurantList = ({ restaurantDishArray, isDish }) => {
   return (
     <div className="w-full">
       {isDish === "DISH" ? (
-        <div className="flex w-full flex-wrap justify-center gap-4 bg-[#F1F2F4] px-2 md:px-4 py-6">
+        <div className="flex w-full flex-wrap gap-4 bg-[#F1F2F4] px-2 md:px-4 py-6">
           {restaurantDishArray.map((item) => (
             <SearchDishListCard
               key={item?.card?.card?.info?.id}
