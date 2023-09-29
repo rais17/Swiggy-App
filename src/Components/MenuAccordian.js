@@ -8,7 +8,7 @@ import {
 const MenuAccordian = ({ restrauntDetails, heading }) => {
   const [isVisible, setIsVisible] = useState(true);
   return (
-    <div className="border-b-[14px] border-b-[#F1F1F6] py-4">
+    <div className="border-b-[14px] border-b-[#F1F1F6] py-4 w-full">
       <div className="flex justify-between">
         <div className="font-sans text-lg font-bold text-[#3e4152]">
           {heading ? (
