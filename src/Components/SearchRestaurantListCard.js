@@ -1,5 +1,5 @@
 import React from 'react'
-import { ITEM_IMG_CDN_URL } from './constant';
+import { ITEM_IMG_CDN_URL, CLD_CDN_URL} from './constant';
 import {AiFillStar} from "react-icons/ai"
 
 const SearchRestaurantListCard = ({ itemInfo }) => {
@@ -9,7 +9,7 @@ const SearchRestaurantListCard = ({ itemInfo }) => {
       <div className="from0:max-from480:w-full w-[88px] shadow-lg">
         <img
           className="object-cover w-full rounded-lg shadow-lg aspect-square"
-          src={ITEM_IMG_CDN_URL + cloudinaryImageId}
+          src={CLD_CDN_URL + cloudinaryImageId}
           alt=""
         />
       </div>
