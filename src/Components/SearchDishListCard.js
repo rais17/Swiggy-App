@@ -13,9 +13,9 @@ const SearchDishListCard = ({ restaurantInfo, itemInfo }) => {
   const [showFullText, setShowFullText] = useState(false);
 
   return (
-    <div className="flex min-h-min md:w-1/2 lg:max-w-[49%] flex-col space-y-4 rounded-2xl border bg-white sm:px-4 px-2 py-5 shadow-md">
+    <div className="flex min-h-min sm:max-w-[48%] flex-col space-y-4 rounded-2xl border bg-white sm:px-4 px-2 py-5 shadow-md">
       {/* restaurant info */}
-      <div className="space-y-1 border-b-[1px] border-dashed pb-4">
+      <div className="space-y-1 border-b-[1px] border-dashed pb-4 w-full">
         <h1 className="font-sans text-sm font-semibold text-[#686b78]">
           By {name}
         </h1>
@@ -28,7 +28,7 @@ const SearchDishListCard = ({ restaurantInfo, itemInfo }) => {
         </div>
       </div>
       {/* item info */}
-      <div className="flex items-center justify-center md:justify-between">
+      <div className="flex justify-between w-full md:items-center">
         <div className="w-2/3 pr-2">
           <div className="flex items-center space-x-2">
             <GiWheelbarrow style={{ color: "#e43b4f" }} />
