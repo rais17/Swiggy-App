@@ -1,5 +1,5 @@
 import React from "react";
-import { CLD_CDN_URL } from "./constant";
+import { CLD_CDN_URL, ITEM_IMG_CDN_URL } from "./constant";
 import {PiCurrencyInrLight} from "react-icons/pi"
 import { useDispatch } from "react-redux";
 import { addItem } from "../../utils/cartSlice";
@@ -12,9 +12,9 @@ const RestaurantMenuCard = ({ name, description, imageId, price, id }) => {
   }
 
   return (
-    <div className="flex justify-between pt-3 border-b-2 gap-x-7 pb-9">
+    <div className="flex w-full pt-3 border-b-2 from0:max-from480:items-center from0:max-from480:flex-col-reverse from0:max-from480:space-y-4 gap-7 pb-9 sm:justify-between from480:max-md:items-center">
       {/* left side */}
-      <div className="flex flex-col">
+      <div className="flex flex-col from0:max-from480:items-center">
         <h1 className="font-sans text-base font-medium text-[#3e4152]">
           {name}
         </h1>
@@ -26,13 +26,13 @@ const RestaurantMenuCard = ({ name, description, imageId, price, id }) => {
           </p>
         </div>
 
-        <p className="mt-[14px] font-sans text-sm font-normal text-[#282c3f73]">
+        <p className="from0:max-from480:text-center mt-[14px] font-sans text-sm font-normal text-[#282c3f73]">
           {description}
         </p>
       </div>
 
       {/* right-side */}
-      <div className="relative flex h-3/4 max-w-[135px] justify-center">
+      <div className="from0:max-from480:w-full relative flex h-3/4 max-w-[135px] justify-center">
         <img
           className="object-cover w-full rounded-lg"
           src={CLD_CDN_URL + imageId}
