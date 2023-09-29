@@ -13,7 +13,7 @@ const SearchDishListCard = ({ restaurantInfo, itemInfo }) => {
   const [showFullText, setShowFullText] = useState(false);
 
   return (
-    <div className="flex min-h-min max-w-[70%] w-1/2 lg:max-w-[49%] flex-col space-y-4 rounded-2xl border bg-white px-4 py-5 shadow-md">
+    <div className="flex min-h-min md:w-1/2 lg:max-w-[49%] flex-col space-y-4 rounded-2xl border bg-white sm:px-4 px-2 py-5 shadow-md">
       {/* restaurant info */}
       <div className="space-y-1 border-b-[1px] border-dashed pb-4">
         <h1 className="font-sans text-sm font-semibold text-[#686b78]">
