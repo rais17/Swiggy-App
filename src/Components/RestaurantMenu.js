@@ -18,7 +18,7 @@ const RestaurantMenu = () => {
     <ShimmerRestaurantMenu />
   ) : (
     <div className="mx-auto mb-16 w-11/12 max-w-[800px]">
-      <div className="mb-[18px] flex w-full justify-between border-b-2 border-dashed py-4 ">
+      <div className="mb-[18px] w-full justify-between border-b-2 border-dashed py-4 ">
         {/* Restraunt Info */}
 
         {/* left-side */}
