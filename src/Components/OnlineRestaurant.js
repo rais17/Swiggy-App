@@ -6,7 +6,7 @@ const OnlineRestaurant = ({onlineRestaurant}) => {
   return (
     onlineRestaurant && (
       <div className=" mx-auto mt-6 space-y-3.5 p-4">
-        <h1 className="font-sans text-2xl font-bold">Online Restaurant</h1>
+        <h1 className="font-sans text-2xl font-bold from0:max-from480:text-center">Online Restaurant</h1>
         <div className="flex flex-wrap justify-center gap-8">
           {onlineRestaurant.map((onlineRestaurant) => {
             return (
