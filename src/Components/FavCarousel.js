@@ -26,7 +26,7 @@ const FavCarousel = ({ whatsOnMind }) => {
   return (
     whatsOnMind && (
       <div className="w-full p-4 space-y-3.5 border-b-[1px] pb-12">
-        <h1 className="font-sans text-2xl font-bold">
+        <h1 className="font-sans text-2xl font-bold from0:max-from480:text-center">
           Hey, What's On Your Mind
         </h1>
         <Carousel responsive={responsive}>
