@@ -32,7 +32,7 @@ const TopRestaurentCarousel = ({ topRestaurant }) => {
   return (
     topRestaurant && (
       <div className="mt-10 w-full space-y-3.5 border-b-[1px] px-4 pb-10">
-        <h1 className="font-sans text-2xl font-bold">Top Restaurant</h1>
+        <h1 className="font-sans text-2xl font-bold from0:max-from480:text-center">Top Restaurant</h1>
 
         <Carousel responsive={responsive}>
           {topRestaurant.map((topRestaurant) => {
