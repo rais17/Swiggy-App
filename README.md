@@ -1,4 +1,4 @@
-# Swiggy Restaurant Finder
+# Swiggy App
 
 This web application utilizes Swiggy's live API data to provide real-time restaurant information. It offers a smooth user experience with dynamic search, auto-suggestions, and infinite scrolling. The project implements conditional rendering, caching strategies, and a shopping cart feature using Redux Toolkit. It also incorporates Shimmer UI, lazy loading, and dynamic routing for enhanced performance and seamless navigation.
 
